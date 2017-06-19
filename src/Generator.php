@@ -43,7 +43,7 @@ class Generator
      *
      * @return $this
      */
-    public function for (string $email)
+    public function for ($email)
     {
         $this->email = $email;
 
