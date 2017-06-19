@@ -38,17 +38,17 @@ class Generator
         return $this;
     }
 
-    /**
-     * @param string $email
-     *
-     * @return $this
-     */
-    public function for ($email)
-    {
-        $this->email = $email;
+//     /**
+//      * @param string $email
+//      *
+//      * @return $this
+//      */
+//     public function for ($email)
+//     {
+//         $this->email = $email;
 
-        return $this;
-    }
+//         return $this;
+//     }
     
      /**
      * @param string $email
