@@ -58,7 +58,7 @@ class Manager
      * @return \Clarkeash\Doorman\Models\Invite
      * @throws \Clarkeash\Doorman\Exceptions\InvalidInviteCode
      */
-    protected function lookupInvite($code): Invite
+    protected function lookupInvite($code)
     {
         try {
             return Invite::where('code', '=', Str::upper($code))->firstOrFail();
