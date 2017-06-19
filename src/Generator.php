@@ -43,12 +43,12 @@ class Generator
      *
      * @return $this
      */
-    public function for ($email)
-    {
-        $this->email = $email;
+//     public function for ($email)
+//     {
+//         $this->email = $email;
 
-        return $this;
-    }
+//         return $this;
+//     }
     
      /**
      * @param string $email
