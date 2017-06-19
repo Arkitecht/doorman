@@ -49,6 +49,18 @@ class Generator
 
         return $this;
     }
+    
+     /**
+     * @param string $email
+     *
+     * @return $this
+     */
+    public function forEmail ($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
 
     /**
      * @param \Carbon\Carbon $date
