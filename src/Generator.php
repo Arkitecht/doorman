@@ -19,7 +19,7 @@ class Generator
      *
      * @return $this
      */
-    public function times(int $amount = 1)
+    public function times($amount = 1)
     {
         $this->amount = $amount;
 
@@ -31,7 +31,7 @@ class Generator
      *
      * @return $this
      */
-    public function uses(int $amount = 1)
+    public function uses($amount = 1)
     {
         $this->uses = $amount;
 
@@ -43,7 +43,7 @@ class Generator
      *
      * @return $this
      */
-    public function for (string $email)
+    public function for ($email)
     {
         $this->email = $email;
 
@@ -55,7 +55,7 @@ class Generator
      *
      * @return $this
      */
-    public function expiresOn(Carbon $date)
+    public function expiresOn($date)
     {
         $this->expiry = $date;
 
