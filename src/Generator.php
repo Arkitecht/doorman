@@ -77,7 +77,7 @@ class Generator
     /**
      * @return \Clarkeash\Doorman\Models\Invite
      */
-    protected function build(): Invite
+    protected function build()
     {
         $invite = new Invite;
         $invite->code = Str::upper(Str::random(5));
